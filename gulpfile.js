@@ -3,7 +3,7 @@ const
 	sass = require('gulp-sass'),
 	autoprefixer = require('gulp-autoprefixer'),
 	concat = require('gulp-concat'),
-	uglify = require('gulp-uglifyjs'),
+	uglify = require('gulp-uglify'),
 	browsersync = require('browser-sync').create(),
 	del = require('del'),
 	jade2 = require('gulp-jade'),
