@@ -42,7 +42,6 @@ function compileScripts() {
 		'app/js/libs/bootstrap.min.js'
 	])
 	.pipe(concat('libs.min.js'))
-	.pipe(uglify())
 	.pipe(gulp.dest('app/js'));
 }
 
