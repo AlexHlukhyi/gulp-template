@@ -2,3 +2,7 @@ node_modules/
 .idea/
 dist/
 package-lock.json
+app/css/libs.min.css
+app/css/main.min.css
+app/js/libs.min.js
+app/*.html

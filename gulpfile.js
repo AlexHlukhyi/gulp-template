@@ -37,7 +37,7 @@ function compileCSSlibs() {
 
 function compileScripts() {
 	return gulp.src([
-		'app/js/libs/jquery-3.5.1.min.js',
+		'app/js/libs/jquery-3.6.0.min.js',
 		'app/js/libs/popper.min.js',
 		'app/js/libs/bootstrap.min.js'
 	])
