@@ -1,8 +1,9 @@
-node_modules/
-.idea/
-dist/
+node_modules
+.idea
+dist
 package-lock.json
+*.lock
+
 app/css/libs.min.css
 app/css/main.min.css
 app/js/libs.min.js
-app/*.html
